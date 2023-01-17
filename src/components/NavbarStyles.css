@@ -1,0 +1,91 @@
+.navbar {
+  /* width: 75%; */
+  width: 80vw;
+  max-width: 40rem;
+  border: 1px solid white;
+  padding: 1rem;
+  border-radius: 50px;
+  margin: auto;
+  position: fixed;
+  bottom: 0.5rem;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.85);
+  transition: all 0.3s;
+  /* align-self: center; */
+  /* align-content: center; */
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  /* padding: 2rem; */
+
+  /* align-self: center; */
+}
+
+.nav-menu li {
+  /* list-style: none; */
+  padding: 0 1rem;
+}
+
+.nav-menu li a {
+  font-size: 1.2rem;
+  font-weight: 500;
+  /* padding: 1.2rem 0.5rem; */
+}
+
+.icon {
+  transition: all 200ms ease-in;
+  /* border: 1px solid black; */
+}
+
+.nav-menu .icon:hover {
+  /* transform: scale(1.3); */
+}
+
+/* Wiggle for notification bell */
+/* @keyframes wiggle {
+  0% {
+    transform: translateX(0px) rotate(0deg);
+  }
+  20% {
+    transform: translateX(-4px) rotate(-4deg);
+  }
+  40% {
+    transform: translateX(-2px) rotate(-2deg);
+  }
+  60% {
+    transform: translateX(4px) rotate(4deg);
+  }
+  80% {
+    transform: translateX(2px) rotate(2deg);
+  }
+  100% {
+    transform: translateX(0px) rotate(0deg);
+  }
+}
+
+.icon:hover {
+  animation: wiggle 0.4s linear;
+} */
+
+.active {
+  border: 1px solid #eee;
+  border-radius: 50px;
+  background-color: rgba(0, 247, 255, 0.745);
+  padding: 1rem;
+  /* opacity: 0.5; */
+}
+
+@media screen and (max-width: 740px) {
+  .icon-name {
+    display: none;
+    transition: all 0.3s;
+  }
+  .navbar {
+    max-width: 20rem;
+  }
+}

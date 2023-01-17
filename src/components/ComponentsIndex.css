@@ -1,0 +1,23 @@
+.component-container {
+  padding: 1rem 10rem;
+  /* padding: 0; */
+  /* border: 2px solid pink; */
+}
+
+@media screen and (max-width: 1040px) {
+  .component-container {
+    padding: 1rem 6.5rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .component-container {
+    padding: 1rem 2.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .component-container {
+    padding: 1rem 2rem;
+  }
+}

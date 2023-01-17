@@ -2,7 +2,7 @@ import ProfilePic from "../../assets/my_image.png";
 
 const aboutSectionData = [
   {
-    text: "My interests are in Physics, data science, AI/ML.My interests are in Physics, data science, AI/ML.",
+    text: "More information will come soon. Learn more by clicking the button below.",
     imgsrc:
       "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
     alt: "work interests",
@@ -13,7 +13,7 @@ const aboutSectionData = [
     id: "Work-Interests",
   },
   {
-    text: "I like to play basketball in my free time. I like to play basketball in my free time. I like to play basketball in my free time.",
+    text: "I like to play basketball in my free time. I like to play basketball in my free time. More information will come soon.",
     imgsrc:
       "https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80",
     alt: "basketball",
@@ -35,7 +35,7 @@ const aboutSectionData = [
     id: "Exploration",
   },
   {
-    text: "My interests are in Physics, data science, AI/ML.My interests are in Physics, data science, AI/ML.",
+    text: "My interests are in Physics, data science, AI/ML. I have to edit this section so we can leave it for tomorrow.",
     imgsrc: ProfilePic,
     alt: "work interests",
     count: 1,

@@ -62,12 +62,7 @@ const SubpagesData = [
     location: "Ottawa, ON",
     beginningDate: new Date("September 1, 2022"),
     endDate: new Date("December 31, 2022"),
-    text: [
-      "Developed OCR software from scratch using OpenCV in Python to extract data from foreign permits. ",
-      "Implemented custom preprocessing pipelines to handle variations in text - font, size, and orientation. ",
-      "Optimized disk space by creating file compression software in Python saving 40% disk space.",
-      "Demonstrated improvement in OCR accuracy for 10k+ permits, resulting in time and cost savings.",
-    ],
+    text: ["I'm currently working on this section. Come back later."],
   },
   {
     imgsrc: experience3,
@@ -93,11 +88,7 @@ const SubpagesData = [
     location: "Waterloo, ON",
     beginningDate: new Date("May 1, 2022"),
     endDate: new Date("April 31, 2023"),
-    text: [
-      "Developed OCR software from scratch using OpenCV in Python to extract data from foreign permits. ",
-      "Implemented custom preprocessing pipelines to handle variations in text - font, size, and orientation. ",
-      "Optimized disk space by creating file compression software in Python saving 40% disk space.",
-    ],
+    text: ["I'm currently working on this section. Come back later."],
   },
 ];
 

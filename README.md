@@ -1,1 +1,2 @@
-# lakshay-g.github.io
+# Lakshay Goel
+### Mathematical Physics Student @UofWaterloo

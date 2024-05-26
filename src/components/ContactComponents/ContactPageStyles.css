@@ -1,0 +1,23 @@
+.contact-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid violet;
+}
+
+.vertical-line {
+  height: 100px;
+  width: 2px;
+  border: 1px solid #eee;
+  margin: auto;
+}
+
+@media screen and (max-width: 1040px) {
+  .vertical-line {
+    visibility: hidden;
+  }
+  .contact-page {
+    display: flex;
+    flex-direction: column;
+  }
+}

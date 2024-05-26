@@ -1,0 +1,29 @@
+.subpages-container {
+  /* border: 1px solid violet; */
+  /* margin: 1rem 0 auto; */
+  /* margin-top: 0; */
+  padding-top: 0;
+}
+
+.subpage-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #eee;
+  border-radius: 25px;
+  width: 100px;
+  margin: auto;
+  margin-bottom: 1rem;
+  /* margin-top: 0; */
+  /* padding: 0; */
+}
+
+.subpage-navbar li {
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  border: 1px solid #eee;
+  /* background-color: #eee; */
+  margin: 0.5rem;
+  cursor: pointer;
+}

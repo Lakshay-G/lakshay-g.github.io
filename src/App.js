@@ -10,8 +10,8 @@ import Contact from "./routes/Contact";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes basename="/">
+    <BrowserRouter basename="/">
+      <Routes>
         {/* <ScrollToTop /> */}
         <Route path="/" element={<Home />} />
         <Route path="/experience" element={<Experience />} />

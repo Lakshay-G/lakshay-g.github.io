@@ -11,11 +11,7 @@ import TypewriterEffect from "../Typewriter";
 // import Background from "../assets/background2.jpeg";
 
 const HeroSection = () => {
-  const positions = [
-    "Physics Student.",
-    "Data Scientist.",
-    "Software Developer.",
-  ];
+  const positions = ["Mathematical Physics Student.", "Data Scientist."];
   const [rightHovered, setRightHovered] = useState(false);
   return (
     <div className="">

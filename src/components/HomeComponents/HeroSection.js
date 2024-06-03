@@ -4,7 +4,7 @@ import React, { useState } from "react";
 
 // import ProfilePic from "../../assets/25-Background-Removed.png";
 // import ProfilePicCandid from "../../assets/26-Background-Removed.png";
-import ProfilePic from "../../assets/my_image.png";
+import ProfilePic from "../../assets/my_imageLarge.png";
 import { Link } from "react-router-dom";
 import TypewriterEffect from "../Typewriter";
 // import StarBackground from "./StarBackground";

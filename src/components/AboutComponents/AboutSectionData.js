@@ -1,4 +1,4 @@
-import ProfilePic from "../../assets/my_image.png";
+import ProfilePic from "../../assets/my_imageLarge.png";
 
 const aboutSectionData = [
   {

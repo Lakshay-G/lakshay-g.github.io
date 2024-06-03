@@ -529,7 +529,7 @@
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 } */
-#stars3.stars3-hovered {
+/* #stars3.stars3-hovered {
   animation: animStar 20s linear, twinkle 10s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -543,4 +543,4 @@
   animation: animStar 10s linear, twinkle 5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-}
+} */

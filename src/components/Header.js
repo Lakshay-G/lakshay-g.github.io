@@ -36,10 +36,10 @@ const Header = () => {
           />
           <BsToggleOn size={40} style={{ color: "#eee" }} />
         </div>
-        <div className="modal-overlay">
+        {/* <div className="modal-overlay">
           <Modal modalTitle="Function still under progress!!" x={-4} y={3} />
           <CgProfile size={40} style={{ color: "#eee" }} />
-        </div>
+        </div> */}
       </div>
     </div>
   );

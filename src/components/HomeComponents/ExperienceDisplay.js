@@ -19,7 +19,6 @@ const ExperienceDisplay = () => {
             <div className="project-card-arrow">
               <ExperienceCard
                 key={index}
-                imgsrc={value.imgsrc}
                 title={value.title}
                 time={value.time}
                 view={value.view}

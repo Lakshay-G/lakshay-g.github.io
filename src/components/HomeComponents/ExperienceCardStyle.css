@@ -18,7 +18,7 @@
 
 .experience-section::before {
   content: "";
-  background: url("../../assets/experience.jpeg");
+  background: url("../../assets/experience.png");
   background-size: cover;
   background-position: center;
   height: 100%;

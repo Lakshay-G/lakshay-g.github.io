@@ -1,11 +1,6 @@
-import experience1 from "../../assets/experience2.jpg";
-import experience2 from "../../assets/experience2.jpg";
-import experience3 from "../../assets/experience2.jpg";
-
 // const moment = require("moment");
 const SubpagesData = [
   {
-    imgsrc: experience1,
     title: "Software Developer",
     time: "Jan 2021 - April 2021",
     company: "360 Education Labs Inc. (Yuja.com)",
@@ -21,7 +16,6 @@ const SubpagesData = [
     ],
   },
   {
-    imgsrc: experience1,
     title: "Undergraduate TA",
     time: "Sept 2021 - Dec 2021",
     company: "University of Waterloo",
@@ -38,7 +32,6 @@ const SubpagesData = [
   },
 
   {
-    imgsrc: experience2,
     title: "Web Developer and Design",
     time: "Jan 2022 - Apr 2022",
     company: "Ministry of Government and Consumer Services",
@@ -54,7 +47,6 @@ const SubpagesData = [
     ],
   },
   {
-    imgsrc: experience3,
     title: "Data Scientist",
     time: "Sept 2022 - Dec 2022",
     company: "Environment and Climate Change Canada",
@@ -65,7 +57,6 @@ const SubpagesData = [
     text: ["I'm currently working on this section. Come back later."],
   },
   {
-    imgsrc: experience3,
     title: "Data Scientist",
     time: "Jan 2023 - Present",
     company: "Environment and Climate Change Canada",
@@ -80,7 +71,6 @@ const SubpagesData = [
     ],
   },
   {
-    imgsrc: experience3,
     title: "Computer Research Assistant",
     time: "May 2022 - Present",
     company: "University of Waterloo",

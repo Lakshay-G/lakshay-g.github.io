@@ -6,6 +6,9 @@ import { MdWork } from "react-icons/md";
 import { AiFillHome } from "react-icons/ai";
 import { SiAboutdotme } from "react-icons/si";
 import { MdContactMail } from "react-icons/md";
+import { FaHome, FaUser, FaEnvelope, FaEnvelopeOpen } from "react-icons/fa";
+import { FaHouse, FaHouseChimney, FaBriefcase } from "react-icons/fa6";
+import { GiChest, GiOpenChest } from "react-icons/gi";
 
 const Navbar = () => {
   const location = useLocation();
@@ -14,41 +17,103 @@ const Navbar = () => {
     <div className="navbar">
       <ul className="nav-menu">
         <li className="icon">
-          <Link to="/" className={location.pathname === "/" ? "active" : ""}>
-            <AiFillHome size={20} style={{ color: "#fff" }} />
+          <Link
+            to="/"
+            className={`navbar-item ${
+              location.pathname === "/" ? "active" : ""
+            }`}
+          >
+            {location.pathname === "/" ? (
+              <FaHouseChimney
+                size={24}
+                style={{
+                  color: "rgba(243, 106, 33, 1)",
+                }}
+              />
+            ) : (
+              <FaHouse
+                size={24}
+                style={{
+                  color: "#fff",
+                }}
+              />
+            )}
             <span className="icon-name">Home</span>
           </Link>
         </li>
         <li className="icon">
           <Link
             to="/experience"
-            className={location.pathname === "/experience" ? "active" : ""}
+            className={`navbar-item ${
+              location.pathname === "/experience" ? "active" : ""
+            }`}
           >
-            <MdWork size={20} style={{ color: "#fff" }} />
+            {location.pathname === "/experience" ? (
+              <GiOpenChest
+                size={24}
+                style={{
+                  color: "rgba(243, 106, 33, 1)",
+                }}
+              />
+            ) : (
+              <FaBriefcase
+                size={24}
+                style={{
+                  color: "#fff",
+                }}
+              />
+            )}
             <span className="icon-name">Experience</span>
           </Link>
         </li>
         <li className="icon">
           <Link
             to="/about"
-            className={location.pathname === "/about" ? "active" : ""}
+            className={`navbar-item ${
+              location.pathname === "/about" ? "active" : ""
+            }`}
           >
-            <SiAboutdotme size={20} style={{ color: "#fff" }} />
+            <SiAboutdotme
+              size={24}
+              style={{
+                color:
+                  location.pathname === "/about"
+                    ? "rgba(243, 106, 33, 1)"
+                    : "#fff",
+                borderBottom:
+                  location.pathname === "/about"
+                    ? "2px solid rgba(243, 106, 33, 1)"
+                    : "",
+              }}
+            />
             <span className="icon-name">About</span>
           </Link>
         </li>
         <li className="icon">
           <Link
             to="/contact"
-            className={location.pathname === "/contact" ? "active" : ""}
+            className={`navbar-item ${
+              location.pathname === "/contact" ? "active" : ""
+            }`}
           >
-            <MdContactMail size={20} style={{ color: "#fff" }} />
+            {location.pathname === "/contact" ? (
+              <FaEnvelopeOpen
+                size={24}
+                style={{
+                  color: "rgba(243, 106, 33, 1)",
+                }}
+              />
+            ) : (
+              <FaEnvelope
+                size={24}
+                style={{
+                  color: "#fff",
+                }}
+              />
+            )}
             <span className="icon-name">Contact</span>
           </Link>
         </li>
-        {/* <li>
-          <GoToTop />
-        </li> */}
       </ul>
     </div>
   );

@@ -18,7 +18,13 @@
   max-width: 100%;
   display: flex;
   flex-direction: column;
+  color: #fff;
   /* padding: 1rem; */
+  transition: transform 0.3s, color 0.3s;
+}
+
+.footer a {
+  text-decoration: none;
 }
 
 .location {
@@ -40,6 +46,8 @@
 
 .social {
   margin-top: 1rem;
+  color: #fff;
+  transition: transform 0.3s, color 0.3s;
 }
 
 .footer-container .right h4 {
@@ -49,6 +57,16 @@
 
 .footer-container p {
   font-size: 1.2rem;
+}
+
+.social-indiv:hover {
+  transform: scale(1.05);
+  color: rgba(243, 106, 33, 1);
+}
+
+.email:hover {
+  transform: scale(1.05);
+  color: rgba(243, 106, 33, 1);
 }
 
 @media screen and (max-width: 640px) {
